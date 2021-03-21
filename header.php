@@ -38,18 +38,18 @@
           <li class="nav-item dropdown">
               <a class="crs nav-link dropdown-toggle active text-center" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-sign-in-alt"></i>&nbspLogin</a>
               <div id="login-form" class="dropdown-menu scrollable-menu" aria-labelledby="navbarDropdown">
-                <form class="pl-3">
+                <form class="pl-3" method="post" action="signIn.php">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Email address/Username</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                        <input type="email" class="form-control" name="Email" id="exampleInputEmail1" aria-describedby="emailHelp" required>
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" required>
+                        <input type="password" class="form-control" name="Password" id="exampleInputPassword1" required>
                     </div>
                     <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <input type="checkbox" class="form-check-input" name="Remember" id="exampleCheck1">
                         <label class="form-check-label" for="exampleCheck1">Remember Me</label>
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
@@ -63,43 +63,43 @@
           <li class="nav-item dropdown scrollable-menu ">
               <a class="crs nav-link dropdown-toggle active text-center" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-handshake"></i>&nbspJoin for free</a>
               <div id="login-form2" class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <form class="pl-3">
+                <form action="signUp.php" method="post" class="pl-3">
                     <div class="form-row">
                         <div class="form-group col-md-6">
                             <label for="exampleInputEmail1">First Name</label>
-                            <input type="text" class="form-control" id="inlineFormInput" required>
+                            <input type="text" class="form-control" name="firstName" id="inlineFormInput" required>
                         </div>
                         <div class="form-group col-md-6">
                             <label for="exampleInputEmail1">Last Name</label>
-                            <input type="text" class="form-control" id="inlineFormInput" required>
+                            <input type="text" class="form-control" name="lastName" id="inlineFormInput" required>
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Username</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                        <input type="text" class="form-control" name="Username" id="exampleInputEmail1" aria-describedby="emailHelp" required>
                         <small id="emailHelp" class="form-text text-muted">Username length should be more than 7</small>
                     </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                        <input type="email" class="form-control" name="Email" id="exampleInputEmail1" aria-describedby="emailHelp" required>
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                     </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Confirm Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                        <input type="email" class="form-control" name="confirmEmail" id="exampleInputEmail1" aria-describedby="emailHelp" required>
                     </div>
                     <div class="form-row">
                         <div class="form-group">
                             <label for="exampleInputPassword1">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" required>
+                            <input type="password" class="form-control" name="Password" id="exampleInputPassword1" required>
                         </div>
                         <div class="form-group">
                             <label for="exampleInputPassword1">Confirm Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" required>
+                            <input type="password" class="form-control" name="confirmPassword" id="exampleInputPassword1" required>
                         </div>
                     </div>
                     <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <input type="checkbox" class="form-check-input" name="getEmail" id="exampleCheck1">
                         <label class="form-check-label" for="exampleCheck1">Opt-in for newsletters and updates via email</label>
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
