@@ -1,0 +1,213 @@
+/* *
+{
+    padding: 0;
+    margin: 0;
+} */
+li,ul,ol,a
+{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* Playfair Display */
+.dropdown-menu a:hover
+{
+    background: grey;
+}
+.crs
+{
+    border: 1.3px solid white;
+    border-radius: 10px;
+}
+.lft
+{
+    text-align: left;
+}
+#bst
+{
+    position: relative;
+    top: 11%;
+    text-align: center;
+}
+.main .btn:hover
+{
+    color: blue!important;
+    background: white;
+}
+.main .btn
+{
+    background: blue;
+    color: white!important;
+    font-weight: 300!important;
+    margin: 0!important;
+    padding: 8px;
+    border-radius: 15px;
+}
+.bnr
+{
+    background-image: linear-gradient(rgba(189, 189, 189,.8),rgba(189, 189, 189,.8));
+}
+.main .display-4,.main .psd
+{
+    font-weight: 700;
+    color: #8DBF42;
+}
+@media(min-width:768px)
+{
+    .main
+    {
+        background-image: url('index_files/img/banner/home-banner.jpg');
+        width: 100%;
+        height: 100%;
+        background-size:cover;
+        background-position: center;
+    }
+}
+.material-icons
+{
+    position: absolute;
+    left: 80%;
+}
+.card
+{
+    display: flex;
+}
+#sdd {
+  /* width: 50%!important; */
+  overflow-x: scroll;
+  white-space: nowrap;
+  overflow-y: hidden;
+}
+.card
+{
+    display: inline-block;
+}
+.card a
+{
+    color: blue!important;
+}
+@media(max-width:767px)
+{
+    .card label
+    {
+        margin-bottom: 30px;
+    }
+    .card {
+      width: 60%!important;
+      height: 40%;
+    }
+    .card img
+    {
+        height: 60%!important;
+    }
+    #mapBox
+    {
+        width: 100%;
+    }
+    .main
+    {
+        background-image: url('index_files/img/banner/home-banner-mob.jpg');
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    h1,h2,h3,h4
+    {
+        font-size: 30px!important;
+    }
+    p,b
+    {
+        font-size: 15px!important;
+    }
+    td,th
+    {
+        font-size: 20px!important;
+    }
+    .lgsn
+    {
+        margin-bottom: 10px;
+    }
+    .nvb a
+    {
+        padding-left: 10px!important;
+        padding-right: 10px!important;
+        padding-top: 6px!important;
+        padding-bottom: 6px!important;
+        margin-right: 10px;
+    }
+}
+.crs:hover,.crs:active
+{
+    background: white;
+    color: black!important;
+    transition: .2s;
+}
+.main img
+{
+    width: 100%;
+}
+.empty
+{
+  height: 10%;
+  width: 100%;
+}
+.course-heading
+{
+  background-color: #444;
+  color: white;
+
+}
+.course
+{
+  background-color: white;
+}
+.aboutus
+{
+  background-color: #eee;
+}
+.social-icon a{
+  font-size:4.5em;
+  padding:3.5rem;
+}
+.social-icon a:hover{
+  color:#d5d5d5;
+}
+.fa-facebook{
+  color: blue;
+  }
+.fa-instragram{
+  color:#517fa4;
+}
+.fa-google-plus-g{
+  color:#dd4b39;
+}
+footer{
+  background-color:#3f3f3f;
+  color:#d5d5d5;
+}
+hr.light{
+width:70%;
+border-top: 1px solid #d5d5d5;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 50%;
+  border-radius: 15px!important;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.card img {
+  /* width: 40%!important; */
+  height: 17vw;
+  border-radius: 15px 15px 0 0!important;
+}

@@ -1,0 +1,11 @@
+$(document).ready(function(){
+  $('#fdbcls').click(function(){
+    $('.fdb').slideToggle();
+  });
+  $('#fdbfrm').click(function(){
+    $('.fdb-form').slideToggle();
+  });
+  $('.clsfdb').click(function(){
+    $('.fdb-form').slideToggle();
+  });
+});

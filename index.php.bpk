@@ -1,0 +1,486 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="index.aspx.cs" Inherits="index" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+   <!-- Required meta tags -->
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <link rel="icon" href="img/favicon.png" type="image/png"/>
+        <title>Best UGC NET JRF Coaching | GATE & NIMCET Coaching</title>
+		<meta name="description" content="Knowledge Arena is a Best UGC NET JRF Coaching Institute in Kapoorthala Lucknow, We provide coaching for UGC/NTA NET, GATE, NIMCET etc."/>
+		<meta name="keywords" content="UGC NET Coaching, NTA NET Coaching, NTA NET JRF Coaching, UGC NTA NET JRF Coaching in lucknow, NIMCET Coaching, GATE Coaching Institute"/>
+		<meta http-equiv="Content-Language" content="en-us">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="robots" content="index, follow">
+		<meta name="distribution" content="Global">
+		<meta name="rating" content="General">
+		<meta name="language" content="English">
+
+        <!-- Scroll js -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/scroll.js"></script>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="stylesheet" href="vendors/linericon/style.css"/>
+        <link rel="stylesheet" href="css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css"/>
+        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css"/>
+        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css"/>
+        <link rel="stylesheet" href="vendors/animate-css/animate.css"/>
+        <link rel="stylesheet" href="vendors/popup/magnific-popup.css"/>
+        <!-- main css -->
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/responsive.css"/>
+</head>
+<body>
+        
+        <!--================Header Menu Area =================-->
+        <header class="header_area">
+           	<div class="top_menu row m0">
+           		<div class="container">
+					<div class="float-left">
+						<ul class="list header_social">
+							<li><a href="https://www.facebook.com/knowledgeArena1/"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://twitter.com/ArenaKnowledge"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="https://www.instagram.com/arenaknowledge/"><i class="fa fa-instagram"></i></a></li>
+						</ul>
+					</div>
+					<div class="float-right">
+						<a class="dn_btn" href="tel:+917393903457">+91-7393903457</a>
+						<a class="dn_btn" href="mailto:info@knowledgearena.in">info@knowledgearena.in</a>
+					</div>
+           		</div>	
+           	</div>	
+            <div class="main_menu">
+            	<nav class="navbar navbar-expand-lg navbar-light">
+					<div class="container">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<a class="navbar-brand logo_h" href="index.aspx"><img src="img/logo.jpg" alt=""/></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+							<ul class="nav navbar-nav menu_nav ml-auto">
+								<li class="nav-item active"><a class="nav-link" href="#home">Home</a></li> 
+								<li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li> 
+								<li class="nav-item"><a class="nav-link" href="#about">About</a></li> 
+								<li class="nav-item"><a class="nav-link" href="#faculty">Faculty</a></li>
+								<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+								<li class="nav-item"><a class="nav-link" href="ugcnet.aspx">UGC-NET/JRF</a></li>
+								<li class="nav-item"><a class="nav-link" href="gate-cs.aspx">GATE (CS)</a></li>
+								<li class="nav-item"><a class="nav-link" href="nimcet-mca.aspx">NIMCET (MCA)</a></li>
+							</ul>
+						</div> 
+					</div>
+            	</nav>
+            </div>
+        </header>
+        <!--================Header Menu Area =================-->
+        
+        <!--================Home Banner Area =================-->
+        <section class="home_banner_area" id="home">
+            <div class="banner_inner d-flex align-items-center home_background_banner">
+            	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+				<div class="container">
+					<!--<div class="banner_content text-center">
+						<h3>We Ensure better education <br />for a better world</h3>
+						<p>In the history of modern astronomy, there is probably no one greater leap forward than the building and launch of the space telescope known as the Hubble.</p>
+						<a class="main_btn" href="#courses">Get Started</a>
+					</div>-->
+				</div>
+            </div>
+        </section>
+        <!--================End Home Banner Area =================-->
+        
+    <!--================About Area =================-->
+        <%--<section class="about_area p_70_100" id="Section1">
+        	<div class="container">
+        		<div class="main_title">
+        			<h1>UGC NET JRF Coaching In Lucknow</h1>
+        		</div>
+        		<div class="about_details">
+        			<p>We provide excellent team of teachers who are specilialised in a particular subject field. We provide depth knowledge of the subject that enhances your concepts and provides better understanding regarding the topic and subject. Our focus for our students is not only helping them to crack UGC NET or JRF but also prepare them to be an excellent teachers. </p>
+                    <p>We provide excellent team of teachers who are specilialised in a particular subject field. We provide depth knowledge of the subject that enhances your concepts and provides better understanding regarding the topic and subject. Our focus for our students is not only helping them to crack UGC NET or JRF but also prepare them to be an excellent teachers. We provide excellent team of teachers who are specilialised in a particular subject field. We provide depth knowledge of the subject that enhances your concepts and provides better understanding regarding the topic and subject. Our focus for our students is not only helping them to crack UGC NET or JRF but also prepare them to be an excellent teachers. </p>
+                    <p>We provide excellent team of teachers who are specilialised in a particular subject field. We provide depth knowledge of the subject that enhances your concepts and provides better understanding regarding the topic and subject. Our focus for our students is not only helping them to crack UGC NET or JRF but also prepare them to be an excellent teachers. We provide excellent team of teachers who are specilialised in a particular subject field. We provide depth knowledge of the subject that enhances your concepts and provides better understanding regarding the topic and subject. </p>
+        			
+        		</div>
+        	</div>
+        </section>--%>
+        <!--================End About Area =================-->   
+    
+    <!--================About Area =================-->
+        <section class="about_area p_70_100">
+        	<div class="container">
+        		<div class="main_title">
+        			<h1>UGC NET JRF Coaching In Lucknow</h1>
+        			
+        		</div>
+        		<div class="row about_inner">
+        			<div class="col-lg-6">
+						<p>We provide excellent team of teachers who are specilialised in a particular subject field. We provide depth knowledge of the subject that enhances your concepts and provides better understanding regarding the topic and subject. Our focus for our students is not only helping them to crack UGC NET or JRF but also prepare them to be an excellent teachers.</p>
+                        <p>On behalf of UGC, the National Eligibility Test (NET) is conducted for determining the eligibility of Indian nationals for the Eligibility for Assistant Professor only or Junior Research Fellowship & Eligibility for Assistant Professor Both in Indian Universities and Colleges. Till July 2018, the CBSE conducted the NET in various Cities spread across the country. From Dec 2018 onwards, the UGC- NET is being conducted by the NTA. The award of JRF and Eligibility for Assistant Professor both OR Eligibility for Assistant Professor only depends on the performance of the candidate in both the papers of NET in aggregate. However, the candidates qualifying exclusively for Assistant Professor are not to be considered for award of JRF. Candidates who qualify the Test for eligibility for Assistant Professor are governed by the rules and regulations for recruitment of Assistant Professor of the concerned universities/colleges/state governments, as the case may be.</p>
+        			</div>
+        			<div class="col-lg-6">
+        				<div class="video_area" id="video">
+							<img class="img-fluid" src="img/courses/ugcnet.png" alt="UGC NET Examination">
+						</div>
+        			</div>
+        		</div>
+        		
+        	</div>
+        </section>
+        <!--================End About Area =================--> 
+
+        <!--================Courses Area =================-->
+        <section class="courses_area p_70_100" id="courses">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>Courses We Offer</h2>
+        			<!--<p>There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s exciting to think about setting up your own viewing station.</p>-->
+        		</div>
+        		<div class="row courses_inner">
+        			<div class="col-lg-12">
+						<div class="grid_inner">
+							<div class="grid_item wd55">
+								<div class="courses_item">
+									<img src="img/courses/UGC-NET-Computer-Science.jpg" class="course_img" alt="UGC NET Computer Science"/>
+									<div class="hover_text">
+										<a href="ugcnet.aspx"><h4>UGC NET Classes (Computer Science)</h4></a>
+									</div>
+								</div>
+							</div>
+							<div class="grid_item wd55">
+								<div class="courses_item">
+									<img src="img/courses/gateCS.jpg" class="course_img" alt="GATE Computer Science"/>
+									<div class="hover_text">
+										<a href="gate-cs.aspx"><h4>GATE (Computer Science)</h4></a>
+									</div>
+								</div>
+							</div>
+                            <div class="grid_item wd55">
+								<div class="courses_item">
+									<img src="img/courses/nimcet.jpg" class="course_img" alt="NIMCET MCA"/>
+									<div class="hover_text">
+										<a href="nimcet-mca.aspx"><h4>NIMCET MCA</h4></a>
+									</div>
+								</div>
+							</div>
+							<div class="grid_item wd55">
+								<div class="courses_item">
+									<img src="img/courses/commerce.jpg" class="course_img" alt="UGC NET Commerce"/>
+									<div class="hover_text">
+										<a href="ugcnet.aspx"><h4>UGC NET Classes (Commerce)</h4></a>
+									</div>
+								</div>
+							</div>
+							<div class="grid_item wd55">
+								<div class="courses_item">
+									<img src="img/courses/Management.jpg" class="course_img" alt="UGC NET Management"/>
+									<div class="hover_text">
+										<a href="ugcnet.aspx"><h4>UGC NET Classes (Management)</h4></a>
+									</div>
+								</div>
+							</div>
+							<div class="grid_item wd55">
+								<div class="courses_item">
+									<img src="img/courses/hrm.jpg" class="course_img" alt="UGC NET HRM"/>
+									<div class="hover_text">
+										<a href="ugcnet.aspx"><h4>UGC NET Classes (HRM)</h4></a>
+									</div>
+								</div>
+							</div>
+              <div class="grid_item wd55">
+								<div class="courses_item">
+									<img src="img/courses/English.jpg" class="course_img" alt="UGC NET English"/>
+									<div class="hover_text">
+										<a href="ugcnet.aspx"><h4>UGC NET Classes (English)</h4></a>
+									</div>
+								</div>
+							</div>
+              <div class="grid_item wd55">
+								<div class="courses_item">
+									<img src="img/courses/history.jpg" class="course_img" alt="UGC NET History"/>
+									<div class="hover_text">
+										<a href="ugcnet.aspx"><h4>UGC NET Classes (History)</h4></a>
+									</div>
+								</div>
+							</div>
+              <div class="grid_item wd55">
+								<div class="courses_item">
+									<img src="img/courses/Sociology.jpg" class="course_img" alt="UGC NET Sociology"/>
+									<div class="hover_text">
+										<a href="ugcnet.aspx"><h4>UGC NET Classes (Sociology)</h4></a>
+									</div>
+								</div>
+							</div>
+                            <div class="grid_item wd55">
+								<div class="courses_item">
+									
+								</div>
+							</div>
+              <div class="grid_item wd55">
+								<div class="courses_item">
+									<img src="img/courses/economics.jpg" class="course_img" alt="UGC NET Economics"/>
+									<div class="hover_text">
+										<a href="ugcnet.aspx"><h4>UGC NET Classes (Economics)</h4></a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Courses Area =================-->
+        
+        <!--================About Area =================-->
+        <section class="about_area p_70_100" id="about">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>About Us</h2>
+        			<p>Aspiration is awesome.  But if you aren’t trying to measure it, train on it, promote it, and enculturate it, It would argue that your core might need some surgery…</p>
+        		</div>
+        		<div class="about_details">
+        			<p>Our focus is to develop each student a strong academic foundation, critical problem-solving ability, and providing a competitive environment. It is committed to their transformation into a developed personality — prepared to face not only competitive examinations but also succeed in brilliantly modeling their respective career paths.</p>
+        			<p>At Knowledge Arena, we have a dedicated faculty of highly qualified, experienced, skilled and motivated teachers, who carry the quality to tailor their lessons to the requirement of the students, stimulate, motivate, guide, and evaluate the learning of students & are always ready to help students. Highly qualified faculty members are best known for their respective subject knowledge. We provide focused, scientific and systematic training to the students to crack <b>UGC NET(History, Sociology, Computer Science, HRM, English, Commerce, Management)/GATE (Computer Science)/NIMCET(MCA) Examination</b>. Our vision is to build a rich and intellectual potential embedded with sound knowledge, professional ethics and human values among the youth, research scholars and scientists by creating excellent human resource to serve the Nation. Our mission is to provide unfailing commitment to develop a dense competitive environment with the main focus on application of concepts with accuracy, giving maximum result at minimum attempts.</p>
+        		</div>
+        	</div>
+        </section>
+        <!--================End About Area =================-->
+        
+        <!--================Team Area =================-->
+        <section class="team_area p_70_100" id="faculty">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>Our Faculty</h2>
+        			<!--<p>There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s exciting to think about setting up your own viewing station.</p>-->
+        		</div>
+        		<div class="row team_inner">
+        			<div class="col-lg-4 col-sm-6">
+        				<div class="team_item">
+        					<div class="team_img">
+        						<img class="rounded-circle" src="img/icon/user.png" alt="">
+        						
+        					</div>
+        					<div class="team_name">
+        						<h4>Mr. S. K. Sir</h4>
+        						<p>GATE/NIMCET</p>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-sm-6">
+        				<div class="team_item">
+        					<div class="team_img">
+        						<img class="rounded-circle" src="img/icon/user.png" alt="">
+        						
+        					</div>
+        					<div class="team_name">
+        						<h4>Mr. K. C. Sir</h4>
+        						<p>NET/GATE</p>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-sm-6">
+        				<div class="team_item">
+        					<div class="team_img">
+        						<img class="rounded-circle" src="img/icon/user.png" alt="">
+        						
+        					</div>
+        					<div class="team_name">
+        						<h4>Mr. S. Kumar Sir</h4>
+        						<p>Ph.D</p>
+        					</div>
+        				</div>
+        			</div>
+        			<%--<div class="col-lg-4 col-sm-6">
+        				<div class="team_item">
+        					<div class="team_img">
+        						<img class="rounded-circle" src="img/icon/user.png" alt="">
+        						
+        					</div>
+        					<div class="team_name">
+        						<h4>Mr. S. A. Sir</h4>
+        						<p>NET/JRF</p>
+        					</div>
+        				</div>
+        			</div>--%>
+        			<div class="col-lg-4 col-sm-6">
+        				<div class="team_item">
+        					<div class="team_img">
+        						<img class="rounded-circle" src="img/icon/user.png" alt="">
+        						
+        					</div>
+        					<div class="team_name">
+        						<h4>Mr. V. K. Sir</h4>
+        						<p>NET/JRF</p>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-sm-6">
+        				<div class="team_item">
+        					<div class="team_img">
+        						<img class="rounded-circle" src="img/icon/user.png" alt="">
+        						
+        					</div>
+        					<div class="team_name">
+        						<h4>Mr. R. K. Sir</h4>
+        						<p>NET</p>
+        					</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Team Area =================-->
+        
+        <!--================Contact Area =================-->
+        <section class="contact_area p_70_100" id="contact">
+            <div class="container">
+                <div class="main_title">
+        			<h2>Contact Us</h2>
+        			<p>We try to be as reachable as possible. Please use any of the contact channels below to get in touch with us.</p>
+        		</div>
+                    <iframe id="mapBox" class="mapBox" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.6957323708025!2d80.94173931504429!3d26.881406483141046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd6466f419ef%3A0x28b74c7d66e39811!2sEduRoomz+Kapoorthala!5e0!3m2!1sen!2sin!4v1565796128689!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="contact_info">
+                            <div class="info_item">
+                                <i class="lnr lnr-home"></i>
+                                <h6>Lucknow, Uttar Pradesh</h6>
+                                <p>76-A, Near Bank of Baroda, EDUROOMZ, Kapoorthala</p>
+                            </div>
+                            <div class="info_item">
+                                <i class="lnr lnr-phone-handset"></i>
+                                <h6><a href="tel:+917393903457">+91-7393903457</a></h6>
+                                <p>Mon to Sat 10am to 7 pm</p>
+                            </div>
+                            <div class="info_item">
+                                <i class="lnr lnr-envelope"></i>
+                                <h6><a href="mailto:info@knowledgearena.in">info@knowledgearena.in</a></h6>
+                                <p>Send us your query anytime!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <form class="row contact_form" runat="server" action="" method="post" name="contactForm" id="contactForm">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <asp:TextBox runat="server" type="text" class="form-control" ID="txtname" name="name" placeholder="Enter your name" required></asp:TextBox>
+                                </div>
+                                <div class="form-group">
+                                    <asp:TextBox runat="server" type="email" class="form-control" ID="txtemail" name="email" placeholder="Enter email address" required></asp:TextBox>
+                                </div>
+                                <div class="form-group">
+                                    <asp:TextBox runat="server" class="form-control" ID="txtmobile" name="subject" placeholder="Enter mobile number" required></asp:TextBox>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <asp:TextBox runat="server" style="height:20.3vh" TextMode="MultiLine" class="form-control" name="message" ID="txtmessage" rows="1" placeholder="Enter Message" required></asp:TextBox>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-12 text-right">
+                                <asp:Button runat="server" ID="btnSubmit" type="submit" value="submit" class="btn submit_btn" Text="Send Message" OnClick="btnSubmit_Click"></asp:Button>
+                            </div>
+						</form>
+						
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================Contact Area =================-->
+        
+        <!--================ start footer Area  =================-->	
+        <footer class="footer-area p_70">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2  col-md-6 col-sm-6">
+                        <div class="single-footer-widget tp_widgets">
+                           <a href="#home">
+                               <h6 class="footer_title">Home</h6>
+                           </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2  col-md-6 col-sm-6">
+                        <div class="single-footer-widget tp_widgets">
+                           <a href="#courses">
+                               <h6 class="footer_title">Courses</h6>
+                           </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2  col-md-6 col-sm-6">
+                        <div class="single-footer-widget tp_widgets">
+                           <a href="#contact">
+                               <h6 class="footer_title">Contact</h6>
+                           </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+        				<div class="single-footer-widget tp_widgets">
+        					<a href="ugcnet.aspx">
+        					    <h6 class="footer_title">UGC-NET/JRF</h6>
+        					</a>
+        				</div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+        				<div class="single-footer-widget tp_widgets">
+        					<a href="gate-cs.aspx">
+        				        <h6 class="footer_title">GATE (CS)</h6>
+        					</a>
+        				</div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+        				<div class="single-footer-widget tp_widgets">
+        					<a href="nimcet-mca.aspx">
+        					    <h6 class="footer_title">NIMCET MCA</h6>
+        					</a>
+        				</div>
+                    </div>
+                </div>
+                <div class="row footer-bottom d-flex justify-content-between align-items-center">
+                    <p class="col-lg-8 col-md-8 footer-text m-0">
+Copyright &copy;&nbsp;2019 All rights reserved |&nbsp;<a href="http://knowledgearena.in/" target="_blank">Knowledge Arena</a>
+</p>
+                    <div class="col-lg-4 col-md-4 footer-social">
+                        <a href="https://www.facebook.com/knowledgeArena1/"><i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/ArenaKnowledge"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/arenaknowledge/"><i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+		<!--================ End footer Area  =================-->
+        
+        
+        
+        
+        
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/stellar.js"></script>
+        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+        <script src="vendors/isotope/isotope.pkgd.min.js"></script>
+        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="vendors/popup/jquery.magnific-popup.min.js"></script>
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+        <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+        <script src="vendors/counter-up/jquery.counterup.js"></script>
+        <script src="js/mail-script.js"></script>
+        <script src="js/theme.js"></script>
+        
+	
+</body>
+</html>
